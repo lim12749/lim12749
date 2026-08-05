@@ -63,7 +63,7 @@ AI가 낸 결과를 그대로 믿지 않고 **정량 검사와 검증 파이프�
 
 ---
 
-## 🏆 AX 인재전쟁 해커톤 — 마이리얼트립 과제
+## 🏆 AX 인재전쟁 해커톤 — 마이리얼트립 과제 · [코드](https://github.com/lim12749/mrt-insider-trail)
 
 - "추천이 아니라 **검증 마찰 제거가 전환을 만든다**"는 문제 정의로, 실제 방문자의
   사진 EXIF(GPS·촬영시각)로 동선을 복원해 '검증된 여행 코스'를 자동 생성하는
@@ -83,7 +83,8 @@ AI가 낸 결과를 그대로 믿지 않고 **정량 검사와 검증 파이프�
 ## ⚡ 그 외
 
 - **HoloLens 2 온도 모니터링 PoC** — FLIR 열화상 연동 실시간 시각화 + 자동 리포트·메일 발송을 **3일 만에** 현장 투입 수준으로 완성, 외주 납품
-- **Polymarket 스타일 예측시장 데모** — SIWE(EIP-4361) 지갑 인증 전 과정(nonce → MetaMask 서명 → 서버 검증 → JWT 세션) 직접 구현, wagmi·viem, 오더북·차트 트레이딩 UX
+- **[Polymarket 스타일 예측시장 데모](https://github.com/lim12749/polymarket-demo)** — SIWE(EIP-4361) 지갑 인증 전 과정(nonce → MetaMask 서명 → 서버 검증 → JWT 세션) 직접 구현, wagmi·viem, 오더북·차트 트레이딩 UX
+- **[keyword-auto-clicker](https://github.com/lim12749/keyword-auto-clicker)** — 부모님의 반복 웹 작업을 줄이려고 만든 크롬 확장 (요소 피커로 선택자 자동 생성, 엣지 트리거 클릭)
 - **WebMecro** — 다중 탭 감시·자동 입력 데스크톱 유틸리티 (C#·Selenium, 비동기 폴링 + 취소 가능 감시 루프)
 
 ## 📫 Contact
