@@ -16,6 +16,9 @@ AI가 낸 결과를 그대로 믿지 않고 **정량 검사와 검증 파이프�
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat&logo=firebase&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=flat&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat&logo=pinecone&logoColor=white)
 ![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
 
@@ -70,6 +73,30 @@ AI가 낸 결과를 그대로 믿지 않고 **정량 검사와 검증 파이프�
   Codex 플러그인 「인사이더 트레일」 설계·구현
 - 로직/데이터 분리 아키텍처(JSON Schema 고정), EXIF 없으면 추측하지 않고 되묻는
   "지어내지 않기" 원칙, HEIC 파싱 실패를 컨테이너 레벨에서 직접 해결
+
+## 🔬 검증 가능하게 만든 사이드 프로젝트
+
+문제를 푸는 것보다 **"이 결과를 믿어도 되는가"를 담보하는 데** 더 공을 들인 프로젝트들입니다.
+
+### [tax-rag-mini](https://github.com/lim12749/tax-rag-mini) — RAG + Tool Calling 에이전트 루프
+
+- LangChain 같은 프레임워크 없이 **에이전트 루프를 직접 구현** — 툴 호출 요청 감지 →
+  실행 → 결과 재주입 → 재호출, 6턴 제한으로 무한루프 차단
+- 세액 계산은 세율 구간표를 가진 코드가 전담하고 **모델에는 툴 호출만 위임** — 계산 환각 차단
+- 출처와 에이전트 단계를 모델이 쓴 문자열이 아니라 **코드가 수집해서** 응답에 첨부
+- Gemini function calling · Pinecone 통합 임베딩(한국어) · Next.js 16
+
+### [holPick](https://github.com/lim12749/holPick) — 공공데이터 경마 복승 예측
+
+경마 예측은 **틀렸는데 맞은 것처럼 보이기 쉬운 문제**라, 정확도보다 검증 설계에 시간을 썼습니다.
+
+- **누수 차단** — 결과를 알아야 나오는 값(착순·주파기록) 배제. 각질도 그 경주 *이전* 이력으로만
+  만든 시점별 스냅샷 사용 (신호는 줄지만 정직한 수치: 선행 27.5% vs 추입 12.9%)
+- **축소추정** — 3전 2착 기수를 66%로 두면 예측이 끌려가므로 기저율(19.6%) 쪽으로 당김
+- **시간분할 백테스트 + 대응비교 유의성 검정** — 검증 경주가 100여 개뿐이라 표준오차 없이
+  "이겼다"고 말하면 과장. 같은 경주를 함께 맞히므로 paired z값으로 판정
+- Harville 모델 복승 조합 확률, 디스크 캐시(일일 호출 한도 3,000 대응)
+- **현재 배당 인기순(시장)을 넘지 못했고, README에 그렇게 적어 뒀습니다**
 
 ## 💼 경력
 
