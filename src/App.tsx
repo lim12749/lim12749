@@ -22,6 +22,7 @@ function App() {
               <p className="intro-description">Unity 클라이언트에서 웹과 AI 서비스까지.<br className="desktop-break" /> 빠르게 구현하고, 실제 사용으로 검증하며 개선합니다.</p>
               <a className="intro-contact" href="mailto:lim12749@gmail.com">lim12749@gmail.com <FiArrowUpRight aria-hidden="true" /></a>
               <div className="intro-tags"><span>프론트엔드 · 풀스택</span><span>제품 개발 · 운영 경험</span></div>
+              <a className="featured-service" href="#saju">대표 서비스 <strong>사주톡</strong> 살펴보기 <FiArrowUpRight aria-hidden="true" /></a>
             </div>
             <img className="profile-photo" src="/profile.jpeg" alt="임기원 프로필 사진" width="1373" height="1856" decoding="async" />
           </header>

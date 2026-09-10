@@ -201,3 +201,7 @@ footer small { color: var(--muted); font-size: 10px; }
   .project-video iframe { display: none; }
   .project-video figcaption a::after { content: " (" attr(href) ")"; overflow-wrap: anywhere; }
 }
+
+.featured-service { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 6px; min-height: 44px; margin-top: 12px; color: var(--accent); font-size: 13px; }
+.featured-service:hover { text-decoration: underline; text-underline-offset: 4px; }
+@media print { .featured-service { display: none; } }

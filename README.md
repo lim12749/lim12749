@@ -38,13 +38,13 @@ AI가 낸 결과를 그대로 믿지 않고 **정량 검사와 검증 파이프�
 
 | 서비스 | 무엇 | 스택 |
 |---|---|---|
-| [운명서재](https://www.unmyeongseojae.com/) | AI 사주 리딩 플랫폼 (직접 창업·운영) | Next.js · Supabase · Claude API · PortOne |
+| [사주톡](https://www.unmyeongseojae.com/) | AI 사주 리딩 플랫폼 (직접 창업·운영) | Next.js · Supabase · Claude API · PortOne |
 | [미래라이프랩](https://miraelifelab.com/) | 맞춤 영양 구독 + AI 유전자 상담 | Next.js · Supabase · Gemini + Pinecone |
 | [약사맘돌봄](https://www.pharmomcare.com/) | 육아 돌봄·과외 정보 플랫폼 | Next.js · Firebase |
 | [하랑DNC](https://www.harangdnc.com/) | 기업 홈페이지 (외주) | Next.js · Supabase |
 | [Last-Nine](https://last-nine.co.kr/) | 기업 사이트 + 내장 백오피스 (외주) | Next.js · AWS |
 
-### 운명서재 — AI 사주 리딩 서비스
+### 사주톡 — 가장 집중해서 개발·운영하는 대표 서비스
 
 - Claude API(Haiku/Sonnet)로 14챕터 개인화 풀이 생성. 만세력·오행·대운 계산은
   `lunar-javascript` 기반 결정론 코드가 전담하고 **LLM에는 해석만 위임** — 계산 환각 원천 차단

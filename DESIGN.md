@@ -31,3 +31,6 @@ React 18, TypeScript, Vite; no new dependencies. Build output dist for Vercel. V
 
 ## Content correction · 2026-09-10
 User clarification supersedes the original PDF for GausLab: metaverse content, equipment assembly simulation and primary MYVR development. Remove game combat/animation and Photon claims. MYVR connects daily task downloads, real-time XR synchronization, visual maintenance guidance and report delivery to administrators. User-provided video: https://www.youtube.com/watch?v=MaduDOwtgIw. Responsive YouTube embed with direct-link fallback; print shows video URL instead of iframe.
+
+## Featured service
+User renamed 운명서재 to 사주톡 and identified it as the primary service. Place it first in projects, highlight it in the introduction and link to its project from the header. Retain the supplied domain until a new URL is provided.
