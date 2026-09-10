@@ -109,7 +109,7 @@ export const projects: Project[] = [
       '작업 순서와 정비 가이드를 XR 화면에 시각화해 현장 작업을 지원했습니다.',
       '점검·정비 결과를 보고서로 정리하고 관리자 디바이스로 전달하는 보고 체계를 구현했습니다.',
     ],
-    stack: ['Unity', 'C#', 'XR'],
+    stack: ['Unity 5', 'C#', 'Firebase', 'MRTK'],
     videoId: 'MaduDOwtgIw',
   },
   {
