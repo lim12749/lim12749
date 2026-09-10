@@ -22,6 +22,14 @@ AI가 낸 결과를 그대로 믿지 않고 **정량 검사와 검증 파이프�
 ![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
 
+
+## 이력서 · 자기소개
+
+- [자기소개 전문](./자기소개-기본형.md): 개발 경험과 일하는 방식을 정리한 기본형 자기소개
+- [웹 이력서 실행·배포 안내](./docs/web-resume.md): 이 저장소의 React 웹 이력서 실행 및 Vercel 연결 방법
+
+웹 이력서는 자기소개, 프로젝트 9개, 경력 4개, 기술·교육으로 구성했습니다. 모바일 화면과 PDF 인쇄를 지원합니다.
+
 ---
 
 ## 🌐 만들고 운영 중인 서비스
