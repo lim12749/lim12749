@@ -134,7 +134,7 @@ AI가 낸 결과를 그대로 믿지 않고 **정량 검사와 검증 파이프�
 
 ## ⚡ 그 외
 
-- **HoloLens 2 온도 모니터링 PoC** — FLIR 열화상 연동 실시간 시각화 + 자동 리포트·메일 발송을 **3일 만에** 현장 투입 수준으로 완성, 외주 납품
+- **HoloLens 2 설비 점검 PoC** — 외주 프로젝트에서 개발 리드와 2인 협업해 **3일 만에** 완성. 리드는 DB 구성, 저는 HoloLens 클라이언트·UI/UX 담당. 장비 번호 QR을 응시해 인식하면 해당 장비의 안드로이드 열화상 카메라 데이터를 표시해 현장 기술자의 상태 점검을 지원
 - **[Polymarket 스타일 예측시장 데모](https://github.com/lim12749/polymarket-demo)** — SIWE(EIP-4361) 지갑 인증 전 과정(nonce → MetaMask 서명 → 서버 검증 → JWT 세션) 직접 구현, wagmi·viem, 오더북·차트 트레이딩 UX
 - **[keyword-auto-clicker](https://github.com/lim12749/keyword-auto-clicker)** — 부모님의 반복 웹 작업을 줄이려고 만든 크롬 확장 (요소 피커로 선택자 자동 생성, 엣지 트리거 클릭)
 - **WebMecro** — 다중 탭 감시·자동 입력 데스크톱 유틸리티 (C#·Selenium, 비동기 폴링 + 취소 가능 감시 루프)
