@@ -8,7 +8,7 @@ Help recruiters scan capability and engineers assess implementation experience. 
 ## Personas and jobs
 Hiring managers and engineers reading projects and career history on desktop and mobile.
 ## Information architecture
-Introduction → self-introduction (six source-grounded paragraphs) → projects → career → skills → education. One route, sticky anchor navigation, native print action. All content visible and searchable.
+Introduction → self-introduction (eight source-grounded paragraphs) → projects → career → skills → education. One route, sticky anchor navigation, native print action. All content visible and searchable.
 ## Design principles
 Evidence before decoration. Distinguish personal work, collaboration and demos. Dates reflect the supplied document.
 ## Visual language
@@ -40,3 +40,6 @@ User-provided update: August 21 launch, approximately 50 daily visitors after ab
 
 ## HoloLens scope correction
 User clarified the outsourced two-person PoC: development lead owned DB setup; user owned HoloLens client, QR recognition, thermal data display and inspection UI/UX. Do not attribute DB, automatic reports or email delivery to the user. This is separate from the earlier MYVR employment project. Self-introduction updated with latest operating metrics and this role boundary.
+
+## General introduction update
+Primary narrative: SajuTalk launch and operation, Claude Code/Codex-assisted development, user analytics and iterative UX improvements, AI output verification. XR and healthcare experience provide supporting evidence. Exclude employer-specific applications and stack-learning promises; company-specific drafts remain local.
