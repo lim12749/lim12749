@@ -23,7 +23,7 @@ function App() {
               <a className="intro-contact" href="mailto:lim12749@gmail.com">lim12749@gmail.com <FiArrowUpRight aria-hidden="true" /></a>
               <div className="intro-tags"><span>프론트엔드 · 풀스택</span><span>제품 개발 · 운영 경험</span></div>
             </div>
-            <div className="monogram" aria-hidden="true"><span>IG</span><small>BUILD. VERIFY. IMPROVE.</small></div>
+            <img className="profile-photo" src="/profile.jpeg" alt="임기원 프로필 사진" width="1373" height="1856" decoding="async" />
           </header>
           <nav className="section-nav" aria-label="이력서 목차">
             <div>{sections.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}</div>

@@ -1,6 +1,6 @@
 # Design
 ## Source of truth
-Active · 2026-09-10. Korean résumé. Evidence: user-supplied Groupby PDF dated 2026-08-05, reference HTML/CSS at https://staging.d1tr74201ikyjj.amplifyapp.com/, existing React/Vite source. Email confirmed in the existing lim12749/lim12749 GitHub profile README: lim12749@gmail.com. No usable personal photo supplied.
+Active · 2026-09-10. Korean résumé. Evidence: user-supplied Groupby PDF dated 2026-08-05, reference HTML/CSS at https://staging.d1tr74201ikyjj.amplifyapp.com/, existing React/Vite source. Email confirmed in the existing lim12749/lim12749 GitHub profile README: lim12749@gmail.com. Portrait supplied by the user on 2026-09-10.
 ## Brand
 Calm and precise. Trust comes from project responsibilities. Avoid stock portraits, fabricated metrics and decorative gradients.
 ## Product goals
@@ -12,7 +12,7 @@ Introduction → self-introduction (five source-grounded paragraphs) → project
 ## Design principles
 Evidence before decoration. Distinguish personal work, collaboration and demos. Dates reflect the supplied document.
 ## Visual language
-Warm white, near-black text, gray metadata, deep green accent. System Korean sans-serif, serif wordmark, thin rules and generous space. Typographic monogram instead of invented photo.
+Warm white, near-black text, gray metadata, deep green accent. System Korean sans-serif, serif wordmark, thin rules and generous space. Use the supplied original portrait at its natural aspect ratio; no face retouching.
 ## Components
 App owns sections and navigation. src/data/resume.ts owns content. src/index.css owns tokens, responsive rules and print variants.
 ## Accessibility
@@ -26,7 +26,7 @@ Korean, specific, concise. Correct typos without changing claims. No invented av
 ## Implementation constraints
 React 18, TypeScript, Vite; no new dependencies. Build output dist for Vercel. Validate build, browser rendering, anchors, print action and print layout.
 ## Open questions
-- [ ] User: optional personal photo.
+- [x] User-supplied portrait added to the header, responsive and printable.
 - [ ] User: changes after the dated résumé, only needed for a later content refresh.
 
 ## Content correction · 2026-09-10
