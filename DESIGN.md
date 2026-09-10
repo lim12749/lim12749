@@ -34,3 +34,6 @@ User clarification supersedes the original PDF for GausLab: metaverse content, e
 
 ## Featured service
 User renamed 운명서재 to 사주톡 and identified it as the primary service. Place it first in projects, highlight it in the introduction and link to its project from the header. Retain the supplied domain until a new URL is provided.
+
+## SajuTalk operating update · 2026-09-10
+User-provided update: August 21 launch, approximately 50 daily visitors after about three weeks, 11 free content types, journey/funnel analytics and feedback-driven UX improvements. Use supplied wording and retain the existing technology stack. This supersedes the previous pre-launch/card-review status.
