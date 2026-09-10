@@ -45,6 +45,19 @@ function App() {
                   <p className="project-subtitle">{project.subtitle}</p>
                   <p className="project-role">{project.role}</p>
                   <p className="project-summary">{project.summary}</p>
+                  {project.videoId && (
+                    <figure className="project-video">
+                      <iframe
+                        src={`https://www.youtube-nocookie.com/embed/${project.videoId}`}
+                        title={`${project.title} 점검·정비 관리 솔루션 소개 영상`}
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                      />
+                      <figcaption><span>MYVR 소개 영상</span><a href={`https://www.youtube.com/watch?v=${project.videoId}`} target="_blank" rel="noopener noreferrer">YouTube에서 보기 <FiArrowUpRight aria-hidden="true" /></a></figcaption>
+                    </figure>
+                  )}
                   <ul className="highlights">{project.highlights.map(item => <li key={item}>{item}</li>)}</ul>
                   {project.stack.length > 0 && <ul className="tech-list" aria-label="사용 기술">{project.stack.map(tech => <li key={tech}>{tech}</li>)}</ul>}
                 </article>

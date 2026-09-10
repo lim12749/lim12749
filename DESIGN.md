@@ -28,3 +28,6 @@ React 18, TypeScript, Vite; no new dependencies. Build output dist for Vercel. V
 ## Open questions
 - [ ] User: optional personal photo.
 - [ ] User: changes after the dated résumé, only needed for a later content refresh.
+
+## Content correction · 2026-09-10
+User clarification supersedes the original PDF for GausLab: metaverse content, equipment assembly simulation and primary MYVR development. Remove game combat/animation and Photon claims. MYVR connects daily task downloads, real-time XR synchronization, visual maintenance guidance and report delivery to administrators. User-provided video: https://www.youtube.com/watch?v=MaduDOwtgIw. Responsive YouTube embed with direct-link fallback; print shows video URL instead of iframe.

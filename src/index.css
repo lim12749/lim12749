@@ -198,3 +198,13 @@ footer small { color: var(--muted); font-size: 10px; }
 
 .intro-contact { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; margin-top: 12px; color: var(--accent); font-size: 13px; }
 .intro-contact:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+.project-video { margin: 20px 0; }
+.project-video iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 1px solid var(--line); border-radius: 5px; background: #eef1ea; }
+.project-video figcaption { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 11px; color: var(--muted); }
+.project-video figcaption a { display: inline-flex; align-items: center; gap: 4px; min-height: 44px; color: var(--accent); }
+@media print {
+  .project-video { margin: 10px 0; }
+  .project-video iframe { display: none; }
+  .project-video figcaption a::after { content: " (" attr(href) ")"; overflow-wrap: anywhere; }
+}
